@@ -1,21 +1,13 @@
-# Email Generator API
+# Email Token Generator
 
-A FastAPI-based API for generating and sending emails from HTML templates using a custom domain name as the email provider.
+A FastAPI test for generating and sending emails from HTML templates using a custom domain name as the email provider.
 
 ## Features
 
 - Generate emails from HTML templates using Jinja2 templating
 - Send emails using custom domain SMTP credentials
 - Support for email attachments
-- RESTful API endpoints for email generation and sending
 - Template management (list, upload, use templates)
-
-## Setup
-
-### Prerequisites
-
-- Python 3.7+
-- SMTP server details for your custom domain (e.g., Gmail, Office 365, custom SMTP)
 
 ### Installation
 
